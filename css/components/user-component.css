@@ -1,52 +1,65 @@
-.user-component{
-    justify-content: space-between;
-    margin-bottom: 15px;
+.user-component {
+  justify-content: space-between;
+  margin-bottom: 15px;
 }
 /* .user-component:first-of-type {
     padding-bottom: 15px;
     border-bottom: 1px solid rgba(0,0,0,0.3);
 } */
-.user-component, .user-component__column:first-child {
-    display: flex;
-    align-items: center;
+.user-component,
+.user-component__column:first-child {
+  display: flex;
+  align-items: center;
 }
-.user-component__avatar{
-    width: 70px;
-    height: 70px;
-    border-radius: 38%;
-    margin-right: 20px;
+.user-component__avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 38%;
+  margin-right: 20px;
+}
+.user-component__title {
+  font-weight: 600px;
+  font-size: 22px;
+}
+.user-component__subtitle {
+  margin-top: 5px;
+  font-size: 17px;
+  color: var(--gray-text);
+}
+.user-component__avatar--xl {
+  width: 80px;
+  height: 80px;
+}
+.user-component__avatar--sm {
+  width: 60px;
+  height: 60px;
+  border-radius: 42%;
+}
 
-}
-.user-component__title{
-    font-weight: 600;
-    font-size: 22px;
-}
-.user-component__subtitle{
-    margin-top: 5px;
-    font-size: 17px;
-    color: rgba(0, 0, 0, 0.5);
-}
-.user-component__avatar--xl{
-    width: 80px;
-    height: 80px;
-
-}
-.user-component__avatar--sm{
-    width: 60px;
-    height: 60px;
-    border-radius: 42%;
-}
-
-.user-component__title--not-bold{
-    font-weight: 400;
+.user-component__title--not-bold {
+  font-weight: 400;
 }
 .user-component__column:last-child {
-    color: rgba(0, 0, 0, 0.4);
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+  color: var(--gray-text);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
-.user-component__time{
-    margin-bottom: 10px;
-    display: block;
+.user-component__column-icon {
+  color: black;
+}
+.user-component__time {
+  margin-bottom: 10px;
+  display: block;
+}
+.user-component__warning {
+  display: inline-flex;
+  border: 2px solid #ff5b49;
+  width: 16px;
+  height: 16px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #ff5b49;
+  font-size: 14px;
 }
