@@ -1,0 +1,6 @@
+/* component */
+@import "/challenges/day6/component/box.css";
+
+body {
+  background-color: #ed6e51;
+}

@@ -52,6 +52,7 @@
   height: 15px;
   border-radius: 50%;
   margin-right: 5px;
+  object-fit: cover;
 }
 .open-post__members-count {
   opacity: 0.5;
