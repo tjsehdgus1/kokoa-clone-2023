@@ -28,3 +28,24 @@
   right: -8px;
   bottom: 17px;
 }
+
+@keyframes rotateGear {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+.screen-header__icons .fa-gear:hover {
+  animation: rotateGear 1s linear infinite;
+}
+.screen-header__icons .fa-music:hover {
+  animation: rotateGear 1s linear infinite;
+}
+.screen-header__icons .fa-comment-dots:hover {
+  animation: rotateGear 1s linear infinite;
+}
+.screen-header__icons .fa-search:hover {
+  animation: rotateGear 1s linear infinite;
+}
