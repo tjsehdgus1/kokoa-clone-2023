@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 435px;
+  height: 100vh;
+  border: 5px solid #000000;
+}
+
+main {
+  margin: 0 20px;
+}
+.header {
+  margin: 30px 30px;
+  display: flex;
+}
+.header h2 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.playing {
+  display: flex;
+  justify-content: space-evenly;
+}
+.playing__thumbnail {
+  border: 3px solid;
+  border-radius: 12px;
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}
+
+.playing-text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.playing__title {
+  font-size: 50px;
+  font-weight: 700;
+}
