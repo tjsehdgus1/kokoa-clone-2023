@@ -1,6 +1,35 @@
-/* component */
-@import "/challenges/day6/component/box.css";
-
 body {
   background-color: #ed6e51;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+.box__square--back {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #f1dfb8;
+  border: 5px solid #000000;
+  width: 500px;
+  height: 500px;
+}
+.box__square--sm,
+.box__square--wide {
+  background-color: #377e7f;
+}
+.box__square--sm {
+  width: 100px;
+  height: 100px;
+  border: 5px solid #ffffff;
+}
+.box__square--wide {
+  width: 400px;
+  height: 100px;
+  border: 5px dashed #ffffff;
 }
