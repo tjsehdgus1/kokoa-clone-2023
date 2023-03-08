@@ -8,59 +8,68 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css"
-    />
+    <script src="https://unpkg.com/phosphor-icons"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <main>
+    <div class="main">
       <div class="header">
-        <div class="header__exit"><i class="fas fa-times fa-2x"></i></div>
-        <h2>PlayList</h2>
+        <div class="header__icon"><i class="ph-x-bold"></i></div>
+        <p class="header__title">Playlist</p>
       </div>
-      <div class="playing">
-        <div class="playing__thumbnail"></div>
-        <div class="playing-text-box">
-          <h1 class="playing__title">Random Love</h1>
-          <h3 class="playing__singer">by Divay Kapoor</h3>
+      <div class="hero">
+        <div class="hero__image"><i class="ph-image-square"></i></div>
+        <div class="hero__content">
+          <h1 class="hero__song-title">Random Love</h1>
+          <div class="hero__song-author">by Divay Kapoor</div>
         </div>
       </div>
-      <div class="button">
-        <button class="button__play">
-          <i class="fas fa-caret-right"></i>
-          <span>Play</span>
+      <div class="controls">
+        <button class="controls__play-button controls__button">
+          <div class="controls__play-icon"><i class="ph-play-bold"></i></div>
+          <p class="controls__play-text">Play</p>
         </button>
-        <button class="button__circle">
-          <i class="far fa-heart"></i>
+        <button
+          class="controls__like-button controls__button controls__button--circle"
+        >
+          <i class="ph-heart-bold"></i>
         </button>
-        <button class="button__circle">
-          <i class="fas fa-plus"></i>
+        <button
+          class="controls__add-to-playlist-button controls__button controls__button--circle"
+        >
+          <i class="ph-plus-bold"></i>
         </button>
       </div>
-      <div class="music">
-        <div class="music__column">
-          <div class="music__box"></div>
-          <p class="music__title">Matargasti</p>
-          <p class="music__siger">Mohit Chauhan</p>
+      <div class="songs">
+        <div class="song">
+          <div class="song__album-art"></div>
+          <div class="song__text">
+            <p class="song__title">Matargasti</p>
+            <p class="song__author">Mohit Chauhan</p>
+          </div>
         </div>
-        <div class="music__column">
-          <div class="music__box"></div>
-          <p class="music__title">Attitude</p>
-          <p class="music__siger">Lewis Ofman-Attitude</p>
+        <div class="song">
+          <div class="song__album-art"></div>
+          <div class="song__text">
+            <p class="song__title">Attitude</p>
+            <p class="song__author">Lewis OfMan &#183; Attitude</p>
+          </div>
         </div>
-        <div class="music__column">
-          <div class="music__box"></div>
-          <p class="music__title">Try Everthing</p>
-          <p class="music__siger">Shakira-Zootopia</p>
+        <div class="song">
+          <div class="song__album-art"></div>
+          <div class="song__text">
+            <p class="song__title">Try Everything</p>
+            <p class="song__author">Sharkira &#183; Zootopia</p>
+          </div>
         </div>
-        <div class="music__column">
-          <div class="music__box"></div>
-          <p class="music__title">Sunflower</p>
-          <p class="music__siger">Joseph Vincent-Sunflower</p>
+        <div class="song">
+          <div class="song__album-art"></div>
+          <div class="song__text">
+            <p class="song__title">Sunflower</p>
+            <p class="song__author">Joseph Vincent &#183; Sunflower</p>
+          </div>
         </div>
       </div>
-    </main>
+    </div>
   </body>
 </html>
