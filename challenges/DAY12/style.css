@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #f6f6f6;
+}
+h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+h5 {
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 60%);
+}
+.main {
+  /* width: 2000px;
+  height: 2000px; */
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.listpage,
+.playpage {
+  width: 500px;
+  height: 900px;
+  border: 2px solid black;
+  border-radius: 30px;
+  margin: 50px;
+  background-color: white;
+}
+.header {
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 0px;
+}
+.profile__img {
+  padding-bottom: 30px;
+}
+.profile__img img {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+}
+.profile__detail {
+  padding-top: 20px;
+}
+.profile__setting {
+  padding: 40px 0px;
+}
+.profile__settingd-shuffle {
+  width: 130px;
+  height: 50px;
+  border: 0;
+  border-radius: 30px;
+  background-color: #1f1f1f;
+  font-size: 20px;
+  color: #d1d1d1;
+}
+.profile__settingd-like {
+  width: 130px;
+  height: 50px;
+  border: 0;
+  background-color: transparent;
+  font-size: 20px;
+  color: #9d989f;
+}
